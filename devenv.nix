@@ -14,6 +14,7 @@
   enterShell = ''
     hello
     git --version
+    export PATH=$HOME/.cargo/bin:$PATH
   '';
 
   # https://devenv.sh/languages/
